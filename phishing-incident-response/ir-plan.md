@@ -63,6 +63,7 @@ The document is a **living reference** and must be updated following significant
 | **Management** | • Support escalation decisions and communication requirements<br>• Approve major recovery actions when business impact exists | Contact Info |
 
 ---
+<br><br>
 # Response Plan
 
 ## Preparation
@@ -121,7 +122,7 @@ To support detection, investigation, and response:
     - IT / Email Administration Team
     - Endpoint Security Team
 - Clearly documented escalation thresholds and approval authority
-
+<br>
 ## Detection & Analysis
 
 ### Detection Sources
