@@ -1,3 +1,76 @@
+# Overview
+
+## Objective
+
+This document outlines a structured response plan designed to guide Analysts and the Incident Response (IR) team through all stages of the incident lifecycle. It defines the necessary preparatory actions required to reduce the likelihood and impact of phishing incidents and ensures that appropriate resources are available for effective analysis and response.
+
+The plan provides clear guidance for evaluating phishing alerts, documenting findings, determining root causes, and executing consistent response actions. It also includes a consolidated set of resources—tools, reference documents, and links—relevant to each phase of the incident response lifecycle.
+
+## Scope & Definition of Phishing Attacks
+
+This document applies to all email-based phishing incidents targeting the organization’s users, systems, or data.
+
+It covers common phishing categories including, but not limited to:
+
+- Credential-harvesting emails
+- Malware or payload-delivering emails
+- Spear-phishing and targeted attacks
+- Business Email Compromise (BEC) attempts
+- Phishing URLs distributed through corporate email channels
+
+Attacks outside the email ecosystem—such as SMS phishing (smishing), voice phishing (vishing), or social engineering over messaging applications—are **out of scope** and handled under separate response procedures.
+
+## Assumptions & Limitations
+
+- All users are expected to follow the organization’s security awareness guidelines and report suspicious emails promptly.
+- Logging, mailbox auditing, and security tools (e.g., email gateway, SIEM, EDR) are assumed to be operational and correctly configured.
+- Incident Response actions depend on the availability of accurate data such as message traces, sign-in logs, and endpoint telemetry.
+- This playbook provides general guidance; variations in technology, tools, or business requirements may require adjustments by the IR team.
+- External factors such as vendor outages, delayed log availability, or incomplete user reports may limit the accuracy of analysis.
+
+## Outcome
+
+Effective application of this response plan enables the organization to:
+
+- Rapidly detect and validate phishing incidents
+- Contain and remediate malicious emails across affected mailboxes
+- Protect compromised users by resetting credentials and securing accounts
+- Identify the root cause, attack vector, and extent of impact
+- Restore normal operations with minimal disruption
+- Document findings to strengthen defenses and prevent recurrence
+
+## Document Usage
+
+This document serves as a practical guide for Analysts, Incident Responders, and IT personnel during suspected or confirmed phishing incidents.
+
+It should be used:
+
+- During triage of phishing alerts or user-reported emails
+- When performing containment, eradication, and recovery actions
+- For documenting incident details, impact, and lessons learned
+- As a reference for approved tools, workflows, and communication procedures
+
+The document is a **living reference** and must be updated following significant incidents, tool changes, or process enhancements.
+
+## Roles & Responsibilities
+
+| Role | Description | SPOC |
+| --- | --- | --- |
+| **Security Analyst** | • Perform initial alert triage and phishing email analysis
+• Escalate incidents according to severity and defined thresholds
+• Document findings and maintain timelines |  |
+| **Incident Response Lead** | • Coordinate response efforts across teams
+• Approve containment and recovery actions
+• Communicate with management and stakeholders |  |
+| **IT / Email Administration Team** | • Remove malicious emails from mailboxes
+• Verify account security, reset credentials, revoke sessions
+• Assist with system or mailbox log retrieval |  |
+| **Security Awareness / Training Team** | • Notify users if needed and provide follow-up education
+• Track user reporting effectiveness |  |
+| **Management** | • Support escalation decisions and communication requirements
+• Approve major recovery actions when business impact exists |  |
+
+---
 # Response Plan
 
 ## Preparation
@@ -176,3 +249,4 @@ Using the documentation created during the Email Analysis Methodology:
 - Improve automated enrichment or triage processes based on incident findings.
 - Add new indicators or patterns to threat intelligence watchlists.
 - Update IR documentation if new steps were identified during the incident.
+---
