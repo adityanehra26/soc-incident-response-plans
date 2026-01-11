@@ -56,11 +56,11 @@ The document is a **living reference** and must be updated following significant
 
 | Role | Description | SPOC |
 | --- | --- | --- |
-| **Security Analyst** | • Perform initial alert triage and phishing email analysis<br>• Escalate incidents according to severity and defined thresholds<br>• Document findings and maintain timelines |  |
-| **Incident Response Lead** | • Coordinate response efforts across teams<br>• Approve containment and recovery actions<br>• Communicate with management and stakeholders |  |
-| **IT / Email Administration Team** | • Remove malicious emails from mailboxes<br>• Verify account security, reset credentials, revoke sessions<br>• Assist with system or mailbox log retrieval |  |
-| **Security Awareness / Training Team** | • Notify users if needed and provide follow-up education<br>• Track user reporting effectiveness |  |
-| **Management** | • Support escalation decisions and communication requirements<br>• Approve major recovery actions when business impact exists |  |
+| **Security Analyst** | • Perform initial alert triage and phishing email analysis<br>• Escalate incidents according to severity and defined thresholds<br>• Document findings and maintain timelines | Contact Info |
+| **Incident Response Lead** | • Coordinate response efforts across teams<br>• Approve containment and recovery actions<br>• Communicate with management and stakeholders | Contact Info |
+| **IT / Email Administration Team** | • Remove malicious emails from mailboxes<br>• Verify account security, reset credentials, revoke sessions<br>• Assist with system or mailbox log retrieval | Contact Info |
+| **Security Awareness / Training Team** | • Notify users if needed and provide follow-up education<br>• Track user reporting effectiveness | Contact Info |
+| **Management** | • Support escalation decisions and communication requirements<br>• Approve major recovery actions when business impact exists | Contact Info |
 
 ---
 # Response Plan
