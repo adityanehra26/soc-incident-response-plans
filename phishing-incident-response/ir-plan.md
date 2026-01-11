@@ -190,11 +190,7 @@ Based on the findings from the Detection & Analysis phase:
 - If credential theft is likely, force password reset and MFA re-registration.
 - If malware download or execution is detected, **escalate to the Malware Incident Response Plan** immediately.
 
-> Decision Point:
-> 
-> 
-> If the analysis reveals a downloaded file, executed payload, or suspicious process → **trigger separate IR workflow** (Malware IR Plan, Ransomware IR Plan, etc.)
-> 
+> Decision Point: If the analysis reveals a downloaded file, executed payload, or suspicious process → **trigger separate IR workflow** (Malware IR Plan, Ransomware IR Plan, etc.)
 
 ### User Account Recovery Steps
 
@@ -221,11 +217,7 @@ Triggered only when the Email Analysis finds endpoint interaction.
 - Remove malicious files, kill malicious processes, and clean persistence mechanisms.
 - If required, escalate for forensic investigation.
 
-> Note:
-> 
-> 
-> This section remains *light* because the deeper remediation belongs in the **Malware IR Plan**.
-> 
+> Note: This section remains *light* because the deeper remediation belongs in the **Malware IR Plan**.
 
 ### Verification of Successful Recovery
 
