@@ -67,11 +67,60 @@ The document is a **living reference** and must be updated following significant
 
 ## Preparation
 
-- Technical Controls
-- User Awareness & Training
-- Communication Channels
-- Logging & Monitoring Requirements
-- Access & Escalation Contacts
+The Preparation phase ensures that the organization has the necessary controls, visibility, and processes in place to effectively detect and respond to email phishing incidents. Proper preparation reduces response time, limits impact, and enables consistent execution of the response plan.
+
+### **Technical Controls**
+
+The following technical controls should be implemented and maintained:
+
+- Secure Email Gateway with anti-phishing, anti-spoofing, and attachment scanning capabilities
+- SPF, DKIM, and DMARC configured and enforced
+- Endpoint Detection and Response (EDR) deployed on user endpoints
+- Multi-Factor Authentication (MFA) enforced for user and privileged accounts
+- Secure Web Gateway / DNS filtering for malicious URL blocking
+- Centralized log collection and retention
+- Automated email quarantine and message purge capabilities
+
+### **User Awareness & Training**
+
+- Mandatory security awareness training covering phishing and social engineering
+- Regular phishing simulation exercises
+- Clear and easy-to-use phishing reporting mechanism (button, mailbox, or ticket)
+- Guidance for users on immediate actions after suspected interaction
+- Periodic communication on emerging phishing trends and campaigns
+
+### **Communication Channels**
+
+The following communication channels must be defined and tested:
+
+- Dedicated SOC or security incident mailbox
+- Internal ticketing or case management system
+- Secure internal messaging platform for IR coordination
+- Escalation communication paths to IT, HR, Legal, and Management
+- Pre-approved templates for user and stakeholder notifications
+
+### **Logging & Monitoring Requirements**
+
+To support detection, investigation, and response:
+
+- Email message trace and delivery logs
+- Mailbox audit logs (rule creation, forwarding, delegation)
+- Authentication and sign-in logs
+- EDR telemetry and endpoint activity logs
+- Network and web access logs
+- Log retention aligned with organizational and regulatory requirements
+
+### **Access & Escalation Contacts**
+
+- Defined roles with access to:
+    - Email administration consoles
+    - IAM and identity platforms
+    - SIEM and EDR systems
+- 24/7 escalation contact list for:
+    - Incident Response Lead
+    - IT / Email Administration Team
+    - Endpoint Security Team
+- Clearly documented escalation thresholds and approval authority
 
 ## Detection & Analysis
 
