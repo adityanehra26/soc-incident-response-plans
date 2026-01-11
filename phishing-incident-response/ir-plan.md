@@ -122,7 +122,7 @@ To support detection, investigation, and response:
     - IT / Email Administration Team
     - Endpoint Security Team
 - Clearly documented escalation thresholds and approval authority
-<br>
+<br></br>
 ## Detection & Analysis
 
 ### Detection Sources
