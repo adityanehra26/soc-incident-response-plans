@@ -178,7 +178,7 @@ Analysts must follow the established methodology to ensure thorough examination 
         - Ongoing campaigns targeting the organization or industry
         - Known attacker techniques (TTPs)
         - Previously observed phishing activity
-
+<br></br>
 ## Containment, Eradication & Recovery
 
 ### Immediate Containment Actions
@@ -227,7 +227,7 @@ Triggered only when the Email Analysis finds endpoint interaction.
 - Ensure affected accounts are secure and not exhibiting abnormal activity.
 - Confirm endpoints show no malicious behavior after remediation.
 - Validate business operations are restored without residual risk.
-
+<br></br>
 ## Post-Incident Activity
 
 ### Reporting & Documentation
