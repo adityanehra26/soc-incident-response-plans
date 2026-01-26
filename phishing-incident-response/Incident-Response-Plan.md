@@ -8,7 +8,7 @@ The plan provides clear guidance for evaluating phishing alerts, documenting fin
 
 ## Scope & Definition of Phishing Attacks
 
-This document applies to all email-based phishing incidents targeting the organization’s users, systems, or data.
+This document applies to phishing incidents targeting the organization’s users, systems, or data.
 
 It covers common phishing categories including, but not limited to:
 
@@ -17,8 +17,6 @@ It covers common phishing categories including, but not limited to:
 - Spear-phishing and targeted attacks
 - Business Email Compromise (BEC) attempts
 - Phishing URLs distributed through corporate email channels
-
-Attacks outside the email ecosystem—such as SMS phishing (smishing), voice phishing (vishing), or social engineering over messaging applications—are **out of scope** and handled under separate response procedures.
 
 ## Assumptions & Limitations
 
