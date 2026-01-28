@@ -7,7 +7,6 @@
 ### Objective
 Define the purpose of this Incident Response Plan and the goals of responding to this specific incident type.
 
----
 
 ### Scope & Definition of [Incident Type]
 Describe what is considered in-scope for this incident.
@@ -16,7 +15,7 @@ Include:
 - Assets or systems affected
 - What is explicitly out of scope (if applicable)
 
----
+
 
 ### Assumptions & Limitations
 Document assumptions and constraints that may impact incident handling, such as:
@@ -25,7 +24,6 @@ Document assumptions and constraints that may impact incident handling, such as:
 - Limited endpoint visibility
 - Dependency on third-party systems
 
----
 
 ### Outcome
 Describe the expected outcome of executing this IRP, such as:
@@ -34,7 +32,6 @@ Describe the expected outcome of executing this IRP, such as:
 - Recovery of affected systems
 - Improved detection and prevention
 
----
 
 ### Document Usage
 Explain how and when this document should be used:
@@ -42,7 +39,6 @@ Explain how and when this document should be used:
 - As a reference during investigations
 - For training and tabletop exercises
 
----
 
 ### Roles & Responsibilities
 
@@ -67,7 +63,6 @@ List technical controls required for readiness, such as:
 - SIEM / log collection
 - Network monitoring
 
----
 
 #### User Awareness & Training
 Document user-facing preparedness measures:
@@ -75,7 +70,6 @@ Document user-facing preparedness measures:
 - Phishing simulations (if applicable)
 - Incident reporting procedures
 
----
 
 #### Communication Channels
 Define communication methods used during incidents:
@@ -83,7 +77,6 @@ Define communication methods used during incidents:
 - Email or messaging platforms
 - Incident bridge or war room
 
----
 
 #### Logging & Monitoring Requirements
 Specify required logs and telemetry:
@@ -92,7 +85,6 @@ Specify required logs and telemetry:
 - Network logs
 - Application or cloud logs
 
----
 
 #### Access & Escalation Contacts
 List access requirements and escalation paths:
@@ -100,7 +92,6 @@ List access requirements and escalation paths:
 - On-call contacts
 - Escalation thresholds
 
----
 
 ### 2.2 Detection & Analysis
 
@@ -112,7 +103,6 @@ Identify how incidents may be detected:
 - Threat intelligence
 - Automated detections
 
----
 
 #### Initial Triage Steps
 Provide step-by-step triage actions:
@@ -121,7 +111,6 @@ Provide step-by-step triage actions:
 3. Determine whether interaction occurred
 4. Preserve relevant evidence
 
----
 
 #### Analysis Methodology / Checklist
 Outline investigation activities such as:
@@ -131,7 +120,6 @@ Outline investigation activities such as:
 - IOC extraction and enrichment
 - Threat intelligence correlation
 
----
 
 #### Impact Assessment
 Assess the scope and severity of the incident:
@@ -140,7 +128,6 @@ Assess the scope and severity of the incident:
 - Data exposure risk
 - Business impact
 
----
 
 #### Incident Classification / Severity Levels
 Define severity criteria:
@@ -148,7 +135,6 @@ Define severity criteria:
 - Medium: Limited exposure or user impact
 - High: Credential compromise, malware execution, or lateral movement
 
----
 
 ### 2.3 Containment, Eradication & Recovery
 
@@ -159,7 +145,6 @@ List containment steps based on confirmed impact:
 - Network isolation
 - Blocking confirmed malicious indicators
 
----
 
 #### User Account Recovery Steps
 Describe actions for compromised identities:
@@ -168,7 +153,6 @@ Describe actions for compromised identities:
 - Session revocation
 - User validation
 
----
 
 #### System & Endpoint Remediation
 Outline remediation actions:
@@ -177,7 +161,6 @@ Outline remediation actions:
 - Patch verification
 - Configuration hardening
 
----
 
 #### Verification of Successful Recovery
 Define validation steps:
@@ -186,7 +169,6 @@ Define validation steps:
 - Normal user access restored
 - Monitoring for reoccurrence
 
----
 
 ### 2.4 Post-Incident Activity
 
@@ -197,7 +179,6 @@ Document:
 - Actions taken
 - Final resolution
 
----
 
 #### Lessons Learned
 Identify improvement areas:
@@ -205,7 +186,6 @@ Identify improvement areas:
 - Response delays
 - Process improvements
 
----
 
 #### Communication to Stakeholders
 Outline communication requirements:
@@ -213,7 +193,6 @@ Outline communication requirements:
 - Management
 - Affected users (if applicable)
 
----
 
 #### Policy / Control Updates
 Document updates required:
@@ -232,7 +211,6 @@ List tools and documentation used for readiness:
 - Training material
 - Architecture diagrams
 
----
 
 ### Detection & Analysis Resources
 Include:
@@ -240,7 +218,6 @@ Include:
 - Threat intelligence platforms
 - Investigation guides
 
----
 
 ### Containment, Eradication & Recovery Resources
 List:
@@ -248,7 +225,6 @@ List:
 - IAM management tools
 - Recovery procedures
 
----
 
 ### Post-Incident Resources
 Include:
@@ -256,7 +232,6 @@ Include:
 - Audit documentation
 - Improvement tracking
 
----
 
 ### Useful Tools & References
 Provide relevant tools and external references:
@@ -264,7 +239,6 @@ Provide relevant tools and external references:
 - Documentation links
 - Framework references
 
----
 
 ### Glossary (Optional)
 Define important terms and abbreviations used in this document.
