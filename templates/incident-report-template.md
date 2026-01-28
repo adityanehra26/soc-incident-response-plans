@@ -1,6 +1,5 @@
 # Incident Response Plan – [Incident Type]
 
----
 
 ## 1. Overview
 
@@ -50,7 +49,6 @@ Explain how and when this document should be used:
 | Identity / IAM Team | Account containment and recovery |
 | Management / Stakeholders | Oversight and communication |
 
----
 
 ## 2. Response Plan
 
@@ -201,7 +199,6 @@ Document updates required:
 - Awareness training
 - IR procedures
 
----
 
 ## 3. Resources
 
