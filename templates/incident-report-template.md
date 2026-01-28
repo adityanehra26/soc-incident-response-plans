@@ -242,3 +242,5 @@ Provide relevant tools and external references:
 
 ### Glossary (Optional)
 Define important terms and abbreviations used in this document.
+
+---
