@@ -46,5 +46,5 @@ In addition, a separate **Templates** directory is included to provide reusable 
 
 ## Disclaimer
 
-These incident response plans are provided for learning and portfolio demonstration purposes.  
+These incident response plans are provided for learning and demonstration purposes.  
 They are generic templates and examples and **must be tailored** before being used in a production environment.
