@@ -2,13 +2,13 @@
 
 ## Objective
 
-This document outlines a structured response plan designed to guide Analysts and the Incident Response (IR) team through all stages of the incident lifecycle. It defines the necessary preparatory actions required to reduce the likelihood and impact of phishing incidents and ensures that appropriate resources are available for effective analysis and response.
+This document outlines a structured response plan designed to guide Analysts and the Incident Response (IR) team through all stages of the incident lifecycle. It defines the necessary preparatory actions required to reduce the likelihood and impact of Email phishing incidents and ensures that appropriate resources are available for effective analysis and response.
 
 The plan provides clear guidance for evaluating phishing alerts, documenting findings, determining root causes, and executing consistent response actions. It also includes a consolidated set of resources—tools, reference documents, and links—relevant to each phase of the incident response lifecycle.
 
 ## Scope & Definition of Phishing Attacks
 
-This document applies to phishing incidents targeting the organization’s users, systems, or data.
+This document applies to Email phishing incidents targeting the organization’s users, systems, or data.
 
 It covers common phishing categories including, but not limited to:
 
